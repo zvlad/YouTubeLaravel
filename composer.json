@@ -1,5 +1,5 @@
 {
-    "name": "zvlad/YoutubeDownloader",
+    "name": "zvlad/youtubelaravel",
     "type": "library",
     "description": "Youtube downloader",
     "keywords": ["laravel", "youtube", "download"],
