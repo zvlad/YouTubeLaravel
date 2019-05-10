@@ -1,19 +1,13 @@
 <?php
 
 /**
- * Youtube Downloader
- *
- * @author Masih Yeganeh <masihyeganeh@outlook.com>
- * @package YoutubeDownloader
- *
- * @version 2.9.6
- * @license http://opensource.org/licenses/MIT MIT
+ * Youtube Download
  */
 
-namespace Masih\YoutubeDownloader;
+namespace zvlad\YouTubeLaravel;
 
-use Masih\YoutubeDownloader\Mp4\MediaTypes;
-use Masih\YoutubeDownloader\Mp4\Mp4;
+use zvlad\YouTubeLaravel\Mp4\MediaTypes;
+use zvlad\YouTubeLaravel\Mp4\Mp4;
 use Dflydev\ApacheMimeTypes\FlatRepository;
 use GuzzleHttp\Client;
 use GuzzleHttp\Cookie\CookieJar;
@@ -567,7 +561,7 @@ class YoutubeDownloader
 
 				if(isset($stream_maps[$key]['type'])) $typeParts = explode(';', $stream_maps[$key]['type']);
 				else $typeParts = ['mp4'];
-				
+
 				// comment zvlad test
 				// TODO: Use container of known itags as extension here
 				$stream_maps[$key]['filename'] = $filename . '.' . $this->getExtension(trim($typeParts[0]));
