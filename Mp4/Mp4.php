@@ -1,6 +1,6 @@
 <?php
 
-namespace zvlad\YouTubeLaravel;
+namespace zvlad\YouTubeLaravel\Mp4;
 
 //use \CFPropertyList\CFPropertyList;
 //use \CFPropertyList\CFDictionary;

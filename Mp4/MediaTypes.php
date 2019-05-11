@@ -1,6 +1,6 @@
 <?php
 
-namespace zvlad\YouTubeLaravel;
+namespace zvlad\YouTubeLaravel\Mp4;
 
 class MediaTypes extends Enum {
 	const Movie = 0;
