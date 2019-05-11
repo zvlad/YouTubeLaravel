@@ -2,7 +2,7 @@
     "name": "zvlad/youtubelaravel",
     "type": "library",
     "description": "Youtube downloader",
-    "keywords": ["laravel", "youtube", "download"],
+    "keywords": ["laravel", "youtube", "download", "zvlad"],
     "homepage": "https://github.com/zvlad/YoutubeDownloader",
     "license": "MIT",
 
@@ -34,7 +34,7 @@
     },
 
     "autoload": {
-        "psr-0": {"": ""}
+        "psr-0": {"zvlad": ""}
     },
 
     "bin": [
